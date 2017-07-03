@@ -7,10 +7,10 @@ import java.lang.*;
 /**
  * Created by qinghan on 2017/6/12.
  */
-public class test1 {
+public class Test1 {
     public static void main(String args[])
     {
-        new test1().init();
+        new Test1().init();
     }
 
     public void init() {

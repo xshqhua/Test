@@ -7,9 +7,9 @@ import java.util.regex.Pattern;
 /**
  * Created by qinghan on 2017/6/14.
  */
-public class regexMatches {
+public class RegexMatches {
     public static void main(String[] args) {
-        regexMatches rm=new regexMatches();
+        RegexMatches rm=new RegexMatches();
         rm.RegexMatch();
         rm.regexMatchSE();
         rm.regexMatch1();

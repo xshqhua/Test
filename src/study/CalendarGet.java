@@ -5,7 +5,7 @@ import java.util.Calendar;
 /**
  * Created by qinghan on 2017/6/14.
  */
-public class calendarGet {
+public class CalendarGet {
     public static void main(String[] args){
         //Calendar类是一个抽象类，在实际使用时实现特定的子类的对象，
         // 创建对象的过程对程序员来说是透明的，只需要使用getInstance方法创建即可。

@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 /**
  * Created by qinghan on 2017/6/13.
  */
-public class printCalendar {//操作打印任意一年日历的类
+public class PrintCalendar {//操作打印任意一年日历的类
     public static void main(String[] args)throws IOException{
         System.out.print("请输入一个年份：");
         InputStreamReader isr=new InputStreamReader(System.in);

@@ -4,6 +4,7 @@ import com.sun.javafx.binding.StringFormatter;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -255,6 +256,7 @@ public class ArrayCalculate {
         }
         avg=(float)sum/array.length;
         //StringFormat
+        //avg=new DecimalFormat("#.00").format(avg);//格式化avg,保留两位小数
         Object[] array1 = new Object[]{max, min, new DecimalFormat("#.00").format(avg), sum};
         return array1;
     }

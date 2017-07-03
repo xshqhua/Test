@@ -34,7 +34,7 @@ R
 "HH:MM"格式（24时制）
 14:28
 */
-public class getNowDate {
+public class GetNowDate {
     public static void main(String[] args) {
         Date date = new Date();
         System.out.println(date);
